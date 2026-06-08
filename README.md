@@ -31,7 +31,26 @@ A web-based Resume Ranking System built using Python, Flask, HTML, CSS, and SQLi
 
 ## Screenshots
 
-Login Page, Dashboard, Resume Upload, and Ranking Results are included in the repository.
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### Welcome Dashboard
+![Dashboard](screenshots/WelcomePage.png)
+
+### Upload Resume Page
+![Upload Page](screenshots/UploadPage.png)
+
+### Python Developer Ranking
+![Python Ranking](screenshots/PythonDeveloperPage.png)
+
+### Machine Learning Ranking
+![ML Ranking](screenshots/MachineLearningPage.png)
+
+### Data Analyst Ranking
+![Data Analyst Ranking](screenshots/DataAnalyticsPage.png)
+
+### Ranked Results
+![Results](screenshots/ResultPageforPython1.png)
 
 ## Author
 
