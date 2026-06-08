@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h2>Upload Job Description & Resumes</h2>
+
+  <form method="POST" enctype="multipart/form-data">
+    <!-- Job Description -->
+    <div class="form-group">
+      <label for="job_description">Paste Job Description:</label>
+      <textarea name="job_description" rows="5" class="form-control"  required></textarea>
+
+    </div>
+
+    <!-- Resume Upload -->
+    <div class="form-group mt-3">
+      <label for="resumes">Upload Resumes:</label>
+      <input type="file" name="resumes" multiple required>
+
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" class="btn btn-success mt-3">Rank Resumes</button>
+  </form>
+</div>
+{% endblock %}

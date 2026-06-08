@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center">
+  <h2 class="mb-4">Welcome To Resume Ranking System, {{ current_user.username }}!</h2>
+
+  <!-- Button for uploading resumes -->
+  <a href="{{ url_for('upload') }}" class="btn btn-primary mx-2">
+    Upload & Rank Resumes
+  </a>
+
+  <!-- Logout -->
+  <a href="{{ url_for('logout') }}" class="btn btn-danger mx-2">
+    Logout
+  </a>
+</div>
+{% endblock %}

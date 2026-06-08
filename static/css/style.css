@@ -1,0 +1,90 @@
+/* Background fix */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("../images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  table-layout: auto;      /* ⬅ Fix: allow natural column width */
+  word-wrap: break-word;   /* ⬅ prevent text overflow */
+}
+
+table th, table td {
+  padding: 12px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;    /* keep text in one line */
+}
+
+table th {
+  background: #f8f9fa;
+  font-weight: bold;
+  font-size: 15px;        /* slightly bigger for readability */
+}
+
+table tr:hover {
+  background: #f1f1f1;
+}
+
+/* Column width rules */
+table th:nth-child(1), table td:nth-child(1) { 
+  min-width: 60px; 
+  text-align: center;     /* SrNo */
+}  
+
+table th:nth-child(2), table td:nth-child(2) { 
+  min-width: 160px; 
+  text-align: left;       /* Name */
+}  
+
+table th:nth-child(3), table td:nth-child(3) { 
+  min-width: 180px; 
+  text-align: left;       /* Email */
+}  
+
+table th:nth-child(4), table td:nth-child(4) { 
+  min-width: 150px; 
+  text-align: left;       /* Phone */
+}  
+
+table th:nth-child(5), table td:nth-child(5) { 
+  min-width: 140px; 
+  text-align: center;     /* Experience */
+}  
+
+table th:nth-child(6), table td:nth-child(6) { 
+  min-width: 250px; 
+  max-width: 350px;   /* prevent table stretching too much */
+  text-align: left; 
+  white-space: normal; /* ⬅ allow wrapping */
+  word-wrap: break-word;
+}  
+
+table th:nth-child(7), table td:nth-child(7) { 
+  min-width: 100px; 
+  text-align: center;     /* Score */
+}
+
+/* Container box */
+/* Make content box bigger */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;           /* more inner spacing */
+  border-radius: 12px;
+  max-width: 1300px;       /* ⬅ increase width */
+  margin: 100px auto;      /* push it a bit more down */
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.25);
+}
+
+

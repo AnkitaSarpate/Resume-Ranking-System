@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h2>Ranked Resumes</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>SrNo</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Experience</th>
+        <th>Skills</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in resumes %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ r.name }}</td>
+        <td>{{ r.email }}</td>
+        <td>{{ r.phone }}</td>
+        <td>{{ r.experience }}</td>
+        <td>{{ r.skills }}</td>
+        <td>{{ r.score }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
