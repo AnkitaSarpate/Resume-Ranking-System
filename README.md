@@ -38,7 +38,7 @@ This project was developed as an academic learning project to understand web dev
 ## Screenshots
 
 ### Login Page
-<img src="screenshots/Login.png" width="800">
+<img src="[screenshots/Login.png](https://raw.githubusercontent.com/AnkitaSarpate/Resume-Ranking-System/refs/heads/main/screenshoots/Login.png)" width="800">
 
 ### Welcome Dashboard
 ![Dashboard](screenshots/WelcomePage.png)
