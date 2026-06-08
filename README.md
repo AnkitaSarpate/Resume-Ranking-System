@@ -1,14 +1,12 @@
 # Resume Ranking System
 
-A web-based Resume Ranking System built using Python, Flask, HTML, CSS, and SQLite.
+A web-based application developed using Python, Flask, HTML, CSS, and SQLite that ranks resumes based on skill matching with a given job description.
 
 ## Project Overview
 
-Resume Ranking System is a web application developed using Python, Flask, HTML, CSS, and SQLite.
+The Resume Ranking System helps recruiters and hiring teams compare multiple resumes against job requirements. Users can upload a job description and multiple resumes, and the system generates a ranked list of candidates based on matching skills.
 
-The system allows users to upload a job description and multiple resumes. It analyzes the resumes based on skill matching and generates a ranked list of candidates according to their relevance to the job requirements.
-
-This project was developed as an academic learning project to understand web application development, resume processing, database integration, and candidate ranking concepts.
+This project was developed as an academic learning project to understand web development, database integration, resume processing, and candidate ranking concepts.
 
 ## Features
 
