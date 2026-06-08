@@ -38,25 +38,25 @@ This project was developed as an academic learning project to understand web dev
 ## Screenshots
 
 ### Login Page
-<img src="[screenshots/Login.png](https://raw.githubusercontent.com/AnkitaSarpate/Resume-Ranking-System/refs/heads/main/screenshoots/Login.png)" width="800">
+![Login Page](screenshots/Login.png)
 
 ### Welcome Dashboard
-![Dashboard](screenshots/WelcomePage.png)
+![Welcome Dashboard](screenshots/WelcomePage.png)
 
 ### Upload Resume Page
-![Upload Page](screenshots/UploadPage.png)
+![Upload Resume Page](screenshots/UploadPage.png)
 
 ### Python Developer Ranking
-![Python Ranking](screenshots/PythonDeveloperPage.png)
+![Python Developer Ranking](screenshots/PythonDeveloperPage.png)
 
 ### Machine Learning Ranking
-![ML Ranking](screenshots/MachineLearningPage.png)
+![Machine Learning Ranking](screenshots/MachineLearningPage.png)
 
 ### Data Analyst Ranking
 ![Data Analyst Ranking](screenshots/DataAnalyticsPage.png)
 
 ### Ranked Results
-![Results](screenshots/ResultPageforPython1.png)
+![Ranked Results](screenshots/ResultPageforPython1.png)
 
 ## Author
 
