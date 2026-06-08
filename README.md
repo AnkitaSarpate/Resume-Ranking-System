@@ -34,6 +34,21 @@ This project was developed as an academic learning project to understand web dev
 4. Skill Matching
 5. Candidate Ranking
 6. Display Ranked Results
+   
+## How to Run
+
+1. Clone the repository
+2. Install requirements
+
+pip install -r requirements.txt
+
+3. Run the application
+
+python app.py
+
+4. Open browser and visit:
+
+http://127.0.0.1:5000
 
 ## Screenshots
 
@@ -57,6 +72,14 @@ This project was developed as an academic learning project to understand web dev
 
 ### Ranked Results
 ![Ranked Results](screenshots/ResultPageforPython1.png)
+
+## Future Enhancements
+
+- PDF Resume Parsing
+- AI-Based Resume Analysis
+- Export Results to Excel
+- Admin Dashboard
+- Email Notifications
 
 ## Author
 
