@@ -38,7 +38,7 @@ This project was developed as an academic learning project to understand web dev
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/Login.png)
+<img src="screenshots/Login.png" width="800">
 
 ### Welcome Dashboard
 ![Dashboard](screenshots/WelcomePage.png)
